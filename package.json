@@ -1,0 +1,22 @@
+{
+    "name": "npm-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "@apollo/client": "3.7.16",
+        "graphql": "16.7.1",
+        "graphql-ws": "5.14.0",
+        "react": "18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.0",
+        "parcel-bundler": "^1.6.1"
+    },
+    "keywords": [],
+    "packageManager": "yarn@3.6.0"
+}
